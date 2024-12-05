@@ -72,7 +72,7 @@ To install Mysql Server into my WSL Ubuntu environment, I gave the following com
 
 -    Install MySQL:
   ```bash
-sudo apt-get install mysql-server
+sudo apt install mariadb-server
 ```
 ![img.002](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture%201.PNG)
 -  Start and enable the MySQL service:
