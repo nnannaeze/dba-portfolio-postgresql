@@ -66,15 +66,27 @@ This project aims to achieve the following:
 To install Mysql Server into my WSL Ubuntu environment, I gave the following command into my terminal
 -  Update the package index:
 ```bash
- sudo apt update
+ sudo apt-get update
 ```
 ![img.001](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
 
 -    Install MySQL:
   ```bash
-sudo apt install mariadb-server
+sudo apt-get install mysql-server
 ```
-![img.002](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture1.PNG)
+![img.002](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture%201.PNG)
+-  Start and enable the MySQL service:
+```bash
+sudo service mysql start
+```
+-    Secure the MySQL installation:
+  ```bash
+sudo mysql_secure_installation
+```
+-    Verify the installation:
+```bash
+mysql --version
+```
 
 
 
