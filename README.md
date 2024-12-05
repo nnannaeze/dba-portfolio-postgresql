@@ -67,7 +67,7 @@ To install Mysql Server into my WSL Ubuntu environment, I gave the following com
 ```bash
  sudo apt update
 ```
-![img.001](Capture 1.PNG)
+![img.001]([Capture 1.PNG](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture%201.PNG))
 
 
 
