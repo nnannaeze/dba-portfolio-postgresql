@@ -62,12 +62,19 @@ This project aims to achieve the following:
 - I installed MySQL and PostgreSQL servers on a WSL Ubuntu environment.
   
 ***For Mysql***
+
 To install Mysql Server into my WSL Ubuntu environment, I gave the following command into my terminal
 -  Update the package index:
 ```bash
  sudo apt update
 ```
-![img.001]([Capture 1.PNG](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture%201.PNG))
+![img.001](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture%201.PNG)
+
+-    Install MySQL:
+  ```bash
+sudo apt install mariadb-server
+```
+
 
 
 
