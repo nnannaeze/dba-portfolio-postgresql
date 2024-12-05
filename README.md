@@ -85,7 +85,7 @@ sudo service mariadb start
 ```bash
 sudo service mariadb status
 ```
-![img.003](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
+![img.003](a3.PNG)
 -    Secure the MySQL installation: To secure my MariaDB installation,  I had to run the following command: 
   ```bash
 sudo mysql_secure_installation
