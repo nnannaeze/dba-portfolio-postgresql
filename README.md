@@ -74,23 +74,29 @@ To install Mysql Server into my WSL Ubuntu environment, I gave the following com
   ```bash
 sudo apt install mariadb-server
 ```
-![img.002](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture%201.PNG)
+![img.002](a1.PNG)
 -  Start and enable the MySQL service:
 ```bash
-sudo service mysql start
+sudo service mariadb start
+
 ```
--    Secure the MySQL installation:
+![img.006](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
+-  Verify Status:
+```bash
+sudo service mariadb status
+```
+![img.003](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
+-    Secure the MySQL installation: To secure my MariaDB installation,  I had to run the following command: 
   ```bash
 sudo mysql_secure_installation
 ```
+![img.004](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
 -    Verify the installation:
 ```bash
 mysql --version
 ```
-
-
-
-
+![img.005](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
+**Installation of Mariadb is Successful**
 
 - I provisioned two databases:  
   - PostgreSQL: `tolldata`  
