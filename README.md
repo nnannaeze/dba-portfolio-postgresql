@@ -57,9 +57,9 @@ This project aims to achieve the following:
     │   ├── recovery_success.png
 
 ## Implementation Steps  
-### 1. Installing/Provisioning  
+### 1. Installing  
 **Steps**:  
-- I installed MySQL and PostgreSQL servers on a WSL Ubuntu environment.
+- I installed MySQL servers on a WSL Ubuntu environment.
   
 ***For Mysql***
 
@@ -96,16 +96,32 @@ sudo mysql_secure_installation
 mysql --version
 ```
 ![img.005](https://github.com/nnannaeze/dba-portfolio-postgresql-mysql/blob/main/Capture.PNG)
+
 **Installation of Mariadb is Successful**
 
 - I provisioned two databases:  
   - PostgreSQL: `tolldata`  
-  - MySQL: `billing`  
+  - MySQL: `billing`
 
-**Deliverables**:  
-- I created shell scripts `install_postgresql.sh` and `install_mysql.sh` to automate the installations.
+ ### 2. Configuration 
+**Steps**: 
+-    For this stage, i have the following objectives
   
-    sudo apt update
+    *    Configure MySQL (MariaDB) for optimized performance and security.
+    *    Make adjustments to the my.cnf file for the specific environment.
+    *    Enable features like logging and connection limits.
+    *    Secure the database by limiting remote access and managing users.
+-    Configuration Files:
+-    
+  The primary configuration file for MySQL (MariaDB) is located at:
+``` bash
+/etc/mysql/my.cnf
+```
+
+        
+
+
+
 
 
 
